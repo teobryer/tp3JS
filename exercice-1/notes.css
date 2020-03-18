@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+fieldset, div {
+  margin: 8px 5px 8px 5px;
+}
+
+legend {
+  font-style: italic;
+}
+
+table {
+  margin: 20px auto 0px auto;
+  width: 80%;
+  font-size: 90%;
+}
+
+table, tr, th, td {
+  border: solid black 1px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td:nth-child(4)  {
+  text-align: right;
+}
+
+button, input[type=reset] {
+  background: lightgrey;
+  color: darkblue;
+  width: 100px;
+}
+
+button:hover {
+  background: green;
+  text-transform: uppercase;
+}
+
+input[type=reset]:hover {
+  background: red;
+  text-transform: uppercase;
+}
